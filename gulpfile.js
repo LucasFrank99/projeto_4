@@ -15,3 +15,4 @@ function images() {
 }
 
 exports.default = gulp.parallel(styles, images);
+exports.build = gulp.parallel(styles, images);
